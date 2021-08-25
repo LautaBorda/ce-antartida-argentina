@@ -1,0 +1,50 @@
+@import 'extends-mixin.scss';
+
+.lea-container {
+    @extend %sectionflex;
+    text-align: center;
+    img {
+        width: 300px;
+        height: 300px;
+    }
+    .flag-promise {
+        @extend %divsectionflex;
+        flex-direction: column;
+        
+        div {
+            @extend %divsectionflex;
+            justify-content: center;
+            text-align: center;
+            flex-wrap: wrap;
+            h3 {
+                @extend %subtitles;
+            }
+            p{
+                @extend %text;
+            }
+        }
+        }
+   
+
+    .science-project {
+        @extend %divsectionflex;
+        flex-direction: column;
+
+        div {
+            @extend %divsectionflex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            text-align: center;
+            flex-wrap: wrap;
+            h3{
+                @extend %subtitles;
+            }
+    
+            p{
+                @extend %text;
+            }
+        }
+
+    }
+
+}

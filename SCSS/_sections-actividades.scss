@@ -1,0 +1,45 @@
+
+@import 'extends.scss';
+
+.actividades-container {
+    @extend %sectionflex;
+}
+
+.actividades-container {
+    h2 {
+        @extend %titles;
+    }
+
+
+    h3 {
+        @extend %subtitles;
+    }
+
+    
+    .text {
+        @extend %text;
+    }
+
+    .science {
+        @extend %divsectionflex;
+    }
+
+    .science {
+        display: flex;
+        
+        .images {
+            @extend %images;
+        }
+
+    }
+
+    .flag-promise {
+        @extend %divsectionflex;
+    }
+
+    .flag-promise {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+}

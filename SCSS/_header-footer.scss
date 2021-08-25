@@ -1,0 +1,90 @@
+@import 'extends-mixin.scss';
+
+
+.navbar {
+
+    position: sticky;
+    top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 200;
+
+    .container-fluid {
+        display: flex;
+        position: sticky;
+        top: 0;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        background-color: #fffeba;
+
+        .navbar-brand {
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    
+        #navbarNavDropdown {
+            ul {
+                text-align: center;
+                a {
+                    font-size: 1.1em;
+                   
+                }
+
+                .nav-item:hover {
+                    @include animations-navbar;
+                }
+                ul {
+                    text-align: center;
+                    li {
+                        margin-right: 0;
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+.align-text-top {
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+    .dropdown-menu {
+        min-width: none;
+    }
+}
+
+li {
+    margin-right: 15px;
+    font-style: italic;
+    
+}
+
+// footer 
+
+.navbar-footer {
+    
+    .container-footer {
+        background-color: #fffeba;
+        justify-content: center;
+
+        ul {
+            flex-direction: inherit;
+            width: 30%;
+        }
+    }
+    
+}

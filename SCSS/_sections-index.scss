@@ -1,0 +1,49 @@
+@import 'extends.scss';
+
+// Nosotros 
+
+.nosotros-container {
+    @extend %sectionflex;
+}
+
+.nosotros-container { 
+    h2 {
+        @extend %titles;
+    }
+
+    .us { 
+        @extend %divsectionflex;
+    }
+
+    .us {
+        .map {
+            margin-left: 20px;
+            border: 2px solid black;
+        }
+        .text {
+            @extend %text;
+        }
+    }
+}
+
+.novedades-container {
+    @extend %sectionflex;
+}
+
+.novedades-container {
+    h2 {
+        @extend %titles;
+    }
+
+    .news {
+        @extend %divsectionflex;
+    }
+    .news {
+        display: flex;
+        flex-direction: row-reverse;
+        .text {
+            @extend %text;
+        }
+    }
+
+}

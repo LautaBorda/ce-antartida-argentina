@@ -1,0 +1,41 @@
+@media only screen and (max-width:991px) {
+
+    // INDEX
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto;
+
+            .inicial-container {
+                margin-top: 30px;
+                .container-profile {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: whitesmoke;
+                    width: 100%;
+
+                    p {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .primario-container {
+                margin-top: 50px;
+                .container-profile {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: whitesmoke;
+                    width: 100%;
+
+                    p {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+

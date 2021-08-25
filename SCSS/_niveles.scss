@@ -1,0 +1,109 @@
+@import 'extends-mixin.scss';
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    .inicial-container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h4 {
+            @extend %titles;
+        }
+        p {
+            display: flex;
+            width: 80%;
+            justify-content: center;
+            text-align: center;
+            margin:auto;
+        }
+
+        .container-profile {
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin-top: 65px;
+            width: 100%;
+            img {
+             width: 60px;
+             height: 60px;
+             border-radius: 50%;
+             object-position: center;
+             object-fit: cover;
+             margin-right: 10px;
+            }
+            h2 {
+             color: #334454;
+             font-size: 1.2rem;
+            }
+            p {
+             color: #a1b2bc;
+             font-size: 0.8rem;
+             width: 100%;
+            }
+           
+           
+          }
+    }
+    
+    .primario-container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h4 {
+            @extend %titles;
+        }
+        p {
+            display: flex;
+            width: 80%;
+            justify-content: center;
+            text-align: center;
+            margin:auto;
+
+
+        }
+
+        ul {
+                
+            list-style: none;
+            list-style-type: none;
+            text-align: center;
+        }
+
+        .container-profile {
+            background-color: whitesmoke;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            bottom: 0;
+            width: 100%;
+            img {
+             width: 60px;
+             height: 60px;
+             border-radius: 50%;
+             object-position: center;
+             object-fit: cover;
+             margin-right: 10px;
+            }
+            h2 {
+             color: #334454;
+             font-size: 1.2rem;
+            }
+            p {
+             color: #a1b2bc;
+             font-size: 0.8rem;
+             width: 100%;
+            }
+           
+          }
+    }
+
+
+}
+

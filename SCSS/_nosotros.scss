@@ -1,0 +1,75 @@
+@import 'extends-mixin.scss';
+
+
+// NOSOTROS 
+
+.container-nosotros {
+    
+    @extend %sectionflex;
+
+        .nosotros-info {
+            margin: 20px;
+        }
+
+        .title {
+            @extend %titles;
+        }
+     
+        #carouselExampleDark {
+            margin: 20px;
+            margin-top: 35px;
+            display: flex;
+            flex-wrap: wrap;
+            z-index: 100;
+            
+            
+
+            .carousel-inner {
+                margin-bottom: 20px;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                .carousel-item {
+                    justify-content: center;
+                    img {
+                        
+                        height: 53%;
+                        width: 60%;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+        
+
+}
+
+// LOCATION 
+
+.location-container {
+    @extend %sectionflex;
+    margin: 20px;
+
+    .location {
+        .location-info {
+            margin: 20px;
+            .map  {
+                margin-top: 55px;
+            }
+            div {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .title {
+                @extend %titles;
+            }
+            p {
+                @extend %text;
+                width: 53%;
+                align-items: center;
+            }
+        }
+    }
+
+}

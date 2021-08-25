@@ -1,0 +1,81 @@
+
+@import 'extends-mixin.scss';
+
+.institucional-container {
+
+
+    .institucional-info {
+        
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(3,auto);
+        gap: 20px;
+        margin: 20px auto;
+
+        p {
+            @extend %text;
+            width: 85%;
+        }
+        
+        h4 {
+            margin-bottom: 10px;
+
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            list-style-type: disc;
+        }
+
+
+        .grid-item1 {
+            @extend %grid-items;
+            grid-row: 3;
+            grid-column: 1;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .grid-item2 {
+            @extend %grid-items;
+            grid-column: 1;
+            grid-row: 1;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .grid-item3 {
+            
+            @extend %grid-items;
+            grid-column: 2;
+            grid-row: 2;
+            li {
+                p {
+                    width: auto;
+                }
+            }
+        }
+
+        .grid-item4 {
+            @extend %grid-items;
+            grid-row: 2;
+
+            li {
+                p {
+                    width: auto;
+                }
+            }
+        }
+
+        .grid-item5 {
+            @extend %grid-items;
+            grid-column: 1;
+            grid-row: 4;
+            grid-column-start: 1;
+            grid-column-end: 3;
+          }
+    }
+}

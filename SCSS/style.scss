@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fffed1 ;
+}
+
+
+@import 'extends-mixin.scss';
+@import 'header-footer.scss';
+@import 'nosotros.scss';
+@import 'institucional.scss';
+@import 'la-escuela-en-accion.scss';
+@import 'niveles.scss';
+@import 'mediaquerys.scss'

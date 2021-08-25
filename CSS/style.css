@@ -1,0 +1,606 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fffed1;
+}
+
+.grid-container .primario-container h4, .grid-container .inicial-container h4, .location-container .location .location-info .title, .container-nosotros .title {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lea-container .science-project div h3, .lea-container .flag-promise div h3 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: -1;
+  width: 50%;
+}
+
+.lea-container .science-project div p, .lea-container .flag-promise div p, .institucional-container .institucional-info p, .location-container .location .location-info p {
+  width: 75%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lea-container, .location-container, .container-nosotros {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.lea-container .science-project div, .lea-container .science-project, .lea-container .flag-promise div, .lea-container .flag-promise {
+  display: flex;
+  align-items: center;
+}
+
+.institucional-container .institucional-info .grid-item5, .institucional-container .institucional-info .grid-item4, .institucional-container .institucional-info .grid-item3, .institucional-container .institucional-info .grid-item2, .institucional-container .institucional-info .grid-item1 {
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.grid-container .primario-container h4, .grid-container .inicial-container h4, .location-container .location .location-info .title, .container-nosotros .title {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lea-container .science-project div h3, .lea-container .flag-promise div h3 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: -1;
+  width: 50%;
+}
+
+.lea-container .science-project div p, .lea-container .flag-promise div p, .institucional-container .institucional-info p, .location-container .location .location-info p {
+  width: 75%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lea-container, .location-container, .container-nosotros {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.lea-container .science-project div, .lea-container .science-project, .lea-container .flag-promise div, .lea-container .flag-promise {
+  display: flex;
+  align-items: center;
+}
+
+.institucional-container .institucional-info .grid-item5, .institucional-container .institucional-info .grid-item4, .institucional-container .institucional-info .grid-item3, .institucional-container .institucional-info .grid-item2, .institucional-container .institucional-info .grid-item1 {
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 200;
+}
+.navbar .container-fluid {
+  display: flex;
+  position: sticky;
+  top: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #fffeba;
+}
+.navbar .container-fluid .navbar-brand h1 {
+  font-size: 1.5rem;
+}
+.navbar .container-fluid #navbarNavDropdown ul {
+  text-align: center;
+}
+.navbar .container-fluid #navbarNavDropdown ul a {
+  font-size: 1.1em;
+}
+.navbar .container-fluid #navbarNavDropdown ul .nav-item:hover {
+  transform: scale(1.14);
+}
+.navbar .container-fluid #navbarNavDropdown ul ul {
+  text-align: center;
+}
+.navbar .container-fluid #navbarNavDropdown ul ul li {
+  margin-right: 0;
+  font-size: 0.8em;
+}
+
+.align-text-top {
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+ul .dropdown-menu {
+  min-width: none;
+}
+
+li {
+  margin-right: 15px;
+  font-style: italic;
+}
+
+.navbar-footer .container-footer {
+  background-color: #fffeba;
+  justify-content: center;
+}
+.navbar-footer .container-footer ul {
+  flex-direction: inherit;
+  width: 30%;
+}
+
+.grid-container .primario-container h4, .grid-container .inicial-container h4, .location-container .location .location-info .title, .container-nosotros .title {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lea-container .science-project div h3, .lea-container .flag-promise div h3 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: -1;
+  width: 50%;
+}
+
+.lea-container .science-project div p, .lea-container .flag-promise div p, .institucional-container .institucional-info p, .location-container .location .location-info p {
+  width: 75%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lea-container, .location-container, .container-nosotros {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.lea-container .science-project div, .lea-container .science-project, .lea-container .flag-promise div, .lea-container .flag-promise {
+  display: flex;
+  align-items: center;
+}
+
+.institucional-container .institucional-info .grid-item5, .institucional-container .institucional-info .grid-item4, .institucional-container .institucional-info .grid-item3, .institucional-container .institucional-info .grid-item2, .institucional-container .institucional-info .grid-item1 {
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.container-nosotros .nosotros-info {
+  margin: 20px;
+}
+.container-nosotros #carouselExampleDark {
+  margin: 20px;
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 100;
+}
+.container-nosotros #carouselExampleDark .carousel-inner {
+  margin-bottom: 20px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-nosotros #carouselExampleDark .carousel-inner .carousel-item {
+  justify-content: center;
+}
+.container-nosotros #carouselExampleDark .carousel-inner .carousel-item img {
+  height: 53%;
+  width: 60%;
+  margin: auto;
+}
+
+.location-container {
+  margin: 20px;
+}
+.location-container .location .location-info {
+  margin: 20px;
+}
+.location-container .location .location-info .map {
+  margin-top: 55px;
+}
+.location-container .location .location-info div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.location-container .location .location-info p {
+  width: 53%;
+  align-items: center;
+}
+
+.grid-container .primario-container h4, .grid-container .inicial-container h4, .container-nosotros .title, .location-container .location .location-info .title {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lea-container .science-project div h3, .lea-container .flag-promise div h3 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: -1;
+  width: 50%;
+}
+
+.lea-container .science-project div p, .lea-container .flag-promise div p, .institucional-container .institucional-info p, .location-container .location .location-info p {
+  width: 75%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lea-container, .container-nosotros, .location-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.lea-container .science-project div, .lea-container .science-project, .lea-container .flag-promise div, .lea-container .flag-promise {
+  display: flex;
+  align-items: center;
+}
+
+.institucional-container .institucional-info .grid-item5, .institucional-container .institucional-info .grid-item4, .institucional-container .institucional-info .grid-item3, .institucional-container .institucional-info .grid-item2, .institucional-container .institucional-info .grid-item1 {
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.institucional-container .institucional-info {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+  margin: 20px auto;
+}
+.institucional-container .institucional-info p {
+  width: 85%;
+}
+.institucional-container .institucional-info h4 {
+  margin-bottom: 10px;
+}
+.institucional-container .institucional-info ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: disc;
+}
+.institucional-container .institucional-info .grid-item1 {
+  grid-row: 3;
+  grid-column: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.institucional-container .institucional-info .grid-item2 {
+  grid-column: 1;
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.institucional-container .institucional-info .grid-item3 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.institucional-container .institucional-info .grid-item3 li p {
+  width: auto;
+}
+.institucional-container .institucional-info .grid-item4 {
+  grid-row: 2;
+}
+.institucional-container .institucional-info .grid-item4 li p {
+  width: auto;
+}
+.institucional-container .institucional-info .grid-item5 {
+  grid-column: 1;
+  grid-row: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.grid-container .primario-container h4, .grid-container .inicial-container h4, .container-nosotros .title, .location-container .location .location-info .title {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lea-container .science-project div h3, .lea-container .flag-promise div h3 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: -1;
+  width: 50%;
+}
+
+.lea-container .science-project div p, .lea-container .flag-promise div p, .location-container .location .location-info p, .institucional-container .institucional-info p {
+  width: 75%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lea-container, .container-nosotros, .location-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.lea-container .science-project div, .lea-container .science-project, .lea-container .flag-promise div, .lea-container .flag-promise {
+  display: flex;
+  align-items: center;
+}
+
+.institucional-container .institucional-info .grid-item1, .institucional-container .institucional-info .grid-item2, .institucional-container .institucional-info .grid-item3, .institucional-container .institucional-info .grid-item4, .institucional-container .institucional-info .grid-item5 {
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.lea-container {
+  text-align: center;
+}
+.lea-container img {
+  width: 300px;
+  height: 300px;
+}
+.lea-container .flag-promise {
+  flex-direction: column;
+}
+.lea-container .flag-promise div {
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.lea-container .science-project {
+  flex-direction: column;
+}
+.lea-container .science-project div {
+  flex-direction: row-reverse;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.grid-container .primario-container h4, .grid-container .inicial-container h4, .container-nosotros .title, .location-container .location .location-info .title {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lea-container .flag-promise div h3, .lea-container .science-project div h3 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: -1;
+  width: 50%;
+}
+
+.location-container .location .location-info p, .institucional-container .institucional-info p, .lea-container .flag-promise div p, .lea-container .science-project div p {
+  width: 75%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-nosotros, .location-container, .lea-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.lea-container .flag-promise, .lea-container .flag-promise div, .lea-container .science-project, .lea-container .science-project div {
+  display: flex;
+  align-items: center;
+}
+
+.institucional-container .institucional-info .grid-item1, .institucional-container .institucional-info .grid-item2, .institucional-container .institucional-info .grid-item3, .institucional-container .institucional-info .grid-item4, .institucional-container .institucional-info .grid-item5 {
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid-container .inicial-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-container .inicial-container p {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.grid-container .inicial-container .container-profile {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 65px;
+  width: 100%;
+}
+.grid-container .inicial-container .container-profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.grid-container .inicial-container .container-profile h2 {
+  color: #334454;
+  font-size: 1.2rem;
+}
+.grid-container .inicial-container .container-profile p {
+  color: #a1b2bc;
+  font-size: 0.8rem;
+  width: 100%;
+}
+.grid-container .primario-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-container .primario-container p {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.grid-container .primario-container ul {
+  list-style: none;
+  list-style-type: none;
+  text-align: center;
+}
+.grid-container .primario-container .container-profile {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+.grid-container .primario-container .container-profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.grid-container .primario-container .container-profile h2 {
+  color: #334454;
+  font-size: 1.2rem;
+}
+.grid-container .primario-container .container-profile p {
+  color: #a1b2bc;
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .grid-container .inicial-container {
+    margin-top: 30px;
+  }
+  .grid-container .inicial-container .container-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 100%;
+  }
+  .grid-container .inicial-container .container-profile p {
+    width: 100%;
+  }
+  .grid-container .primario-container {
+    margin-top: 50px;
+  }
+  .grid-container .primario-container .container-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 100%;
+  }
+  .grid-container .primario-container .container-profile p {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+
+@import 'extends.scss';
+
+li {
+    @extend %li;
+}
+
+ul {
+    @extend %ul;
+}
+
+.images {
+    @extend %images;
+  }
+  
+  .titles {
+    @extend %titles;
+  }
+  
+  .subtitles {
+    @extend %subtitles;
+  }
+  
+  .text {
+    display: flex;
+    margin: 50px;
+  }
+  
+
+//   submenu
+
+
+
+//   animaciones 
+
+/* ANIMACIONES */
+
+
+.menu li:hover {
+    transform: scale(1.16);
+}
+
+a:link {
+    color: black;
+}
+
+.images:hover {
+    transition: all 2s;
+    transform: rotate(360deg)
+}
+
+section:hover .titles, .subtitles {
+    transition: all 1.5s ease;
+    transform: scale(1.2);
+}
+
+.map:hover {
+    transition: 1.5s;
+    transform: scale(1.2);
+}
+
+.aos {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* media query */
+
+
+  
+
+  
+
+  
