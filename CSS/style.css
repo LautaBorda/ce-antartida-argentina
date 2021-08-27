@@ -4,7 +4,10 @@
 }
 
 body {
-  background-color: #fffed1;
+  background-image: url(../images/backgrounds/prueba-background2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .grid-container .primario-container h4, .grid-container .inicial-container h4, .location-container .location .location-info .title, .container-nosotros .title {
@@ -54,6 +57,8 @@ body {
 .institucional-container .institucional-info .grid-item5, .institucional-container .institucional-info .grid-item4, .institucional-container .institucional-info .grid-item3, .institucional-container .institucional-info .grid-item2, .institucional-container .institucional-info .grid-item1 {
   border: 1px solid black;
   margin: 15px;
+  padding: 20px;
+  background-image: url(../images/backgrounds/background-image3.jpeg);
 }
 
 .grid-container .primario-container h4, .grid-container .inicial-container h4, .location-container .location .location-info .title, .container-nosotros .title {
@@ -103,6 +108,8 @@ body {
 .institucional-container .institucional-info .grid-item5, .institucional-container .institucional-info .grid-item4, .institucional-container .institucional-info .grid-item3, .institucional-container .institucional-info .grid-item2, .institucional-container .institucional-info .grid-item1 {
   border: 1px solid black;
   margin: 15px;
+  padding: 20px;
+  background-image: url(../images/backgrounds/background-image3.jpeg);
 }
 
 .navbar {
@@ -213,6 +220,8 @@ li {
 .institucional-container .institucional-info .grid-item5, .institucional-container .institucional-info .grid-item4, .institucional-container .institucional-info .grid-item3, .institucional-container .institucional-info .grid-item2, .institucional-container .institucional-info .grid-item1 {
   border: 1px solid black;
   margin: 15px;
+  padding: 20px;
+  background-image: url(../images/backgrounds/background-image3.jpeg);
 }
 
 .container-nosotros .nosotros-info {
@@ -306,6 +315,8 @@ li {
 .institucional-container .institucional-info .grid-item5, .institucional-container .institucional-info .grid-item4, .institucional-container .institucional-info .grid-item3, .institucional-container .institucional-info .grid-item2, .institucional-container .institucional-info .grid-item1 {
   border: 1px solid black;
   margin: 15px;
+  padding: 20px;
+  background-image: url(../images/backgrounds/background-image3.jpeg);
 }
 
 .institucional-container .institucional-info {
@@ -333,6 +344,7 @@ li {
   grid-column: 1;
   grid-column-start: 1;
   grid-column-end: 3;
+  background-image: url(/images/backgrounds/background-image3.jpeg);
 }
 .institucional-container .institucional-info .grid-item2 {
   grid-column: 1;
@@ -407,6 +419,8 @@ li {
 .institucional-container .institucional-info .grid-item1, .institucional-container .institucional-info .grid-item2, .institucional-container .institucional-info .grid-item3, .institucional-container .institucional-info .grid-item4, .institucional-container .institucional-info .grid-item5 {
   border: 1px solid black;
   margin: 15px;
+  padding: 20px;
+  background-image: url(../images/backgrounds/background-image3.jpeg);
 }
 
 .lea-container {
@@ -480,6 +494,8 @@ li {
 .institucional-container .institucional-info .grid-item1, .institucional-container .institucional-info .grid-item2, .institucional-container .institucional-info .grid-item3, .institucional-container .institucional-info .grid-item4, .institucional-container .institucional-info .grid-item5 {
   border: 1px solid black;
   margin: 15px;
+  padding: 20px;
+  background-image: url(../images/backgrounds/background-image3.jpeg);
 }
 
 .grid-container {

@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LautaBorda/ce-antartida-argentina.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LautaBorda/ce-antartida-argentina/issues"
+  },
+  "homepage": "https://github.com/LautaBorda/ce-antartida-argentina#readme",
   "description": ""
 }
