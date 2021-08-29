@@ -25,6 +25,10 @@ ul {
     display: flex;
     margin: 50px;
   }
+
+  p {
+      @extend %text;
+  }
   
 
 //   submenu

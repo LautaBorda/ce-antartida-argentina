@@ -617,6 +617,11 @@ li {
   .grid-container .primario-container .container-profile p {
     width: 100%;
   }
+
+  .institucional-container .institucional-info {
+    display: flex;
+    display: flow-root;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
